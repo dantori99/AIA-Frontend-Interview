@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="w-screen h-screen">
       <div className="bg-gray-700 h-1/4 w-full flex justify-center items-center flex-col">
-        <a href="#" className="text-white border-b border-b-white font-bold text-4xl" onClick={() => window.location.reload()}>
+        <a href="javascript:void(0);" className="text-white border-b border-b-white font-bold text-4xl" onClick={() => window.location.reload()}>
           Image Search
         </a>
 
